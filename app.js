@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client"
+
 // const ele = document.createElement("h1");
 // ele.innerHTML = "Hello from js!";
 
