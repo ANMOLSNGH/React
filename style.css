@@ -13,7 +13,7 @@
   justify-content: center;   /* center cards */
   background-color: #f8f8f8;
 }
-.nav-item{
+.nav-items{
    display: flex;
    gap:30px;
    margin-left: 20px;
@@ -46,32 +46,58 @@
 }
 
 
-.details {
-  padding: 12px;
-}
-
-.details h3 {
-  font-size: 18px;
-  margin-bottom: 6px;
-  color: #222;
-}
-
-.details p {
-  font-size: 14px;
-  color: #666;
-  margin: 2px 0;
-}
-
-.details p:last-child {
-  color: green;
-  font-weight: bold;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 40px;
-  background-color: white;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 10px 40px;
+  background-color: #f0f0f0;
+}
+
+/* LEFT */
+.logo {
+  height: 100px;
+}
+
+/* CENTER */
+.search-container input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* RIGHT */
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.Filter {
+  width:50px;
+  height: 40px;
+  overflow:hidden;
+  flex-wrap: wrap;
+  margin-right:180px;
+}
+
+.details {
+  padding:10px
 }
