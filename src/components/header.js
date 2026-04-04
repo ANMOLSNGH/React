@@ -25,7 +25,7 @@ const Header = ({ list, setofList, originalList }) => {
       <button
         onClick={() => {
           const resta = originalList.filter(
-            (res) => res?.card?.card?.info?.avgRating > 4
+            (res) => res?.avgRating > 4
           );
           setofList(resta);
         }}
